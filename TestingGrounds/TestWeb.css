@@ -14,16 +14,16 @@
 }
 body {
   background: var(--beige);
-  color: var(--lgrey);
+  color: var(--red);
   font-family: Didot;
 }
 a{
-  color: var(--lgrey);
+  color: var(--dgrey);
   font-family:Didot;
   text-decoration: none;
 }
 a:hover{
-  color: #eef;
+  color: #ddd;
 }
 .headerArea {
   display:grid;
@@ -37,10 +37,11 @@ a:hover{
 
 }
 .headerArea > div{
-  background: var(--primary);
+  /* background: var(--salmon); */
   /* max-width: 300px; */
   align-items: center;
 }
+
 .bodyArea {
   display:grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
@@ -48,10 +49,13 @@ a:hover{
   padding: 1em;
   padding-top: 0em;
   text-align: center;
-  color: var(--dprimary);
+  color: var(--red);
   margin-left:20%;
   margin-right:20%;
 }
 .bodyArea > div:nth-child(2),.bodyArea > div:nth-child(3){
-  background: var(--lgrey);
+  background: var(--yellow);
+}
+.bodyArea > div:nth-child(2):hover ,.bodyArea > div:nth-child(3):hover{
+  background-color: #fd0;
 }
