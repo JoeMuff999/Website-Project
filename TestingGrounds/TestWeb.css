@@ -1,0 +1,57 @@
+:root {
+  --red: #ff6f69;
+  --beige: #ffeead;
+  --yellow: #ffcc5c;
+  --pink: #f7cac9;
+  --blue: #034f84;
+  --baby: #92a8d1;
+  --salmon: #f7786b;
+  --primary: #e57373;
+  --lprimary: #ffa4a2;
+  --dprimary: #af4448;
+  --lgrey: #ddd;
+  --dgrey: #999;
+}
+body {
+  background: var(--beige);
+  color: var(--lgrey);
+  font-family: Didot;
+}
+a{
+  color: var(--lgrey);
+  font-family:Didot;
+  text-decoration: none;
+}
+a:hover{
+  color: #eef;
+}
+.headerArea {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em;
+  padding-bottom: 2em;
+  grid-column-gap: .5em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+.headerArea > div{
+  background: var(--primary);
+  /* max-width: 300px; */
+  align-items: center;
+}
+.bodyArea {
+  display:grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-column-gap:1em;
+  padding: 1em;
+  padding-top: 0em;
+  text-align: center;
+  color: var(--dprimary);
+  margin-left:20%;
+  margin-right:20%;
+}
+.bodyArea > div:nth-child(2),.bodyArea > div:nth-child(3){
+  background: var(--lgrey);
+}
