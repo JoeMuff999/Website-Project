@@ -19,7 +19,8 @@ body {
 }
 a{
   color: var(--dgrey);
-  font-family:Didot;
+  /* font-family:Didot; */
+  font-family: 'DM Serif Display', serif;
   text-decoration: none;
 }
 a:hover{
@@ -29,7 +30,7 @@ a:hover{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
   grid-column-gap: .5em;
   text-align: center;
   margin-left: 20%;
@@ -40,6 +41,16 @@ a:hover{
   /* background: var(--salmon); */
   /* max-width: 300px; */
   align-items: center;
+}
+.secondHeader{
+display: flex;
+align-items: center;
+height: 3em;
+justify-content: center;
+font-size: 2em;
+font-family: 'DM Serif Display', serif;
+
+
 }
 
 .bodyArea {
