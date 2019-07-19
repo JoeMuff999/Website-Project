@@ -16,6 +16,12 @@ ol, ul {
 .status {
   margin-bottom: 10px;
 }
+.buttO {
+  background: #f00;
+  border: 1px solid #000;
+  height: 2em;
+  width: 2em;
+}
 
 .square {
   background: #fff;
