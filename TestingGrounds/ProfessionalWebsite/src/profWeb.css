@@ -13,14 +13,16 @@
     --dgrey: #999;
 }
 body{
-    background: var(--lgrey);
+    width: 100%;
+    height:100%;
+    margin:0;
 }
 .centerHeader{
    display:grid;  
 }
 .centerHeader h1{
     margin: 0;
-    background: var(--lgrey);
+    background: white;
     position: absolute;
     top: 40%;
     left: 50%;
