@@ -1,0 +1,48 @@
+:root {
+  --red: #ff6f69;
+  --beige: #ffeead;
+  --primary_background: #f8f8f8;
+  --yellow: #ffcc5c;
+  --pink: #f7cac9;
+  --blue: #034f84;
+  --baby: #92a8d1;
+  --salmon: #f7786b;
+  --primary: #e57373;
+  --lprimary: #ffa4a2;
+  --dprimary: #af4448;
+  --lgrey: #ddd;
+  --dgrey: #999;
+}
+body {
+  background: var(--beige);
+  /* color: var(--red); */
+  font-family: Didot;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.landingSection {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    height: 100vh;
+
+}
+.landingSection > h1{
+    font-size: 1em;
+    color: var(--red);    
+    justify-content: right;
+    /* align-items: baseline; */
+}
+
+.landingSection > h2{
+    font-size: 1em;
+    color: var(--yellow);
+}
