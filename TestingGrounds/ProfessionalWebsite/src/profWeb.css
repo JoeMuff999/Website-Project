@@ -1,0 +1,32 @@
+:root{
+    --red: #ff6f69;
+    --beige: #ffeead;
+    --yellow: #ffcc5c;
+    --pink: #f7cac9;
+    --blue: #034f84;
+    --baby: #92a8d1;
+    --salmon: #f7786b;
+    --primary: #e57373;
+    --lprimary: #ffa4a2;
+    --dprimary: #af4448;
+    --lgrey: #ddd;
+    --dgrey: #999;
+}
+body{
+    width: 100%;
+    height:100%;
+    margin:0;
+}
+.centerHeader{
+   display:grid;  
+}
+.centerHeader h1{
+    margin: 0;
+    background: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    font-size: 2.5em;
+    font-family: Didot;
+}
